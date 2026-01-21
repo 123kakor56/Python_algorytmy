@@ -126,7 +126,7 @@ while x != 0:
         print(posortowane_naiwnie)
         print(f"Czas wykonania: {czas_naiwne:.6f} sekund, liczba inwersji: {licznikbub}")
         print()
-        
+
         # Sortowanie przez scalanie
         start_scalanie = time.perf_counter()
         posortowane_scalanie, liczniksca, ar4 = sortowanie_przez_scalenie(arr, 0,[arr])
@@ -135,4 +135,4 @@ while x != 0:
         print(posortowane_scalanie)
         print(f"Czas wykonania: {czas_scalanie:.6f} sekund, liczba inwersji: {liczniksca}")
         
-        x = 1  # Reset to ask for a new list size
+        x = 1 
